@@ -8,9 +8,13 @@ Thomas Travels wants to collect and automate their customer travel service proce
  4. Total distance he traveled
 
  Create a class called Driver as shown below: 
+
+ 
  ![Screenshot 2025-06-21 153713](https://github.com/user-attachments/assets/ca1f4623-187b-4397-8b4d-89e66b6577ae)
 
  Create a class called Travel as shown below:
+
+ 
  ![Screenshot 2025-06-21 154157](https://github.com/user-attachments/assets/9bf29442-5bb2-4ffb-bad1-9f7b47fc77e0)
 
 
