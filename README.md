@@ -27,6 +27,6 @@ Thomas Travels wants to collect and automate their customer travel service proce
  
 • RetriveCountOfDriver (ArrayList<Driver>,String) : This method will  category of driver and an arraylist of driver as input and search for an category and returns the count of drivers.
  
- • retriveDriver (ArrayList<Driver>,String) : This method will  category of driver and an arraylist of driver as input and search for an category. and drivers who are belonging to that category should be return as a array list.
+ • RetriveDriver (ArrayList<Driver>,String) : This method will  category of driver and an arraylist of driver as input and search for an category. and drivers who are belonging to that category should be return as a array list.
  
  • RetriveMaximumDistanceTravelledDriver (ArrayList<Driver>) : This method will return the driver who traveled maximum distance
