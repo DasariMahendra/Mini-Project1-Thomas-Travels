@@ -1,5 +1,5 @@
 # Thomas-Travels
-## Java Mini Project | FLM
+## Java Mini Project1 | FLM
 
 Thomas Travels wants to collect and automate their customer travel service process. Each driver in the thomas travels has following attributes.
  1. Id of the driver
