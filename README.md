@@ -1,32 +1,59 @@
-# Thomas-Travels
-## Java Mini Project1 | FLM
+# 🚗 Thomas-Travels
 
-Thomas Travels wants to collect and automate their customer travel service process. Each driver in the thomas travels has following attributes.
- 1. Id of the driver
- 2. Name of the driver
- 3. Category of the driver (Auto/Car/Lorry)
- 4. Total distance he traveled
+## 📘 Java Mini Project | FLM
 
- Create a class called Driver as shown below: 
+Thomas Travels is a fictional transport service company looking to **automate their driver data management** system. This mini project helps store and manage details about drivers (Auto, Car, Lorry), and perform various queries such as filtering by category, retrieving by ID, and finding the driver who traveled the most.
 
- 
+---
+
+## ✨ Features
+
+- ✅ Add and manage driver records
+- 🚙 Check if a driver is a **Car** driver
+- 🧑‍💼 Retrieve driver details by **Driver ID**
+- 📊 Get the **count of drivers** in a given category
+- 📋 Get a **list of drivers** by category
+- 🏆 Identify the driver who **traveled the maximum distance**
+
+---
+
+## 🧑‍💻 Classes Overview
+
+### 🔹 `Driver.java`
+
+Represents a driver with the following attributes:
+
+- `int driverId`
+- `String driverName`
+- `String category` (Auto / Car / Lorry)
+- `int totalDistance`
+
+---
+
+### 🔹 `Travel.java`
+
+Contains static utility methods to manage and search drivers:
+
+- `boolean isCarDriver(Driver d)`  
+  Returns `true` if the given driver belongs to the "Car" category.
+
+- `String retriveByDriverId(ArrayList<Driver> list, int driverId)`  
+  Searches for a driver by ID and returns a formatted string like:  
+  > Driver name is **Sudhagar** belonging to the category **Car** traveled **4200 KM** so far.
+
+- `int retriveCountOfDriver(ArrayList<Driver> list, String category)`  
+  Returns the count of drivers belonging to a specific category.
+
+- `ArrayList<Driver> retriveDriver(ArrayList<Driver> list, String category)`  
+  Returns a list of drivers who belong to the specified category.
+
+- `Driver retriveMaximumDistanceTravelledDriver(ArrayList<Driver> list)`  
+  Returns the driver who has traveled the **maximum distance**.
+
+👇 Driver Class Design
+
  ![Screenshot 2025-06-21 153713](https://github.com/user-attachments/assets/ca1f4623-187b-4397-8b4d-89e66b6577ae)
 
- Create a class called Travel as shown below:
+ 👇 Travel Class Design
 
- 
- ![Screenshot 2025-06-21 154157](https://github.com/user-attachments/assets/9bf29442-5bb2-4ffb-bad1-9f7b47fc77e0)
-
-
- • **isCarDriver (Driver)** : This method will check whether the given Driver class object is belonging to the category “Car”. 
- It will return true if the given Driver object is of category “Car” else return false.
- 
- • **RetrivebyDriverId (ArrayList<Driver>,driverID)** : This method will search the given driverId in the arraylist and returns the String in the following format
- Driver name is <driverName> Belonging to the category <category> traveled <totalDistance> KM so far.   
- Example: Driver name is Sudhagar belonging to the category Car traveled 4200 KM so far.  
- 
-• **RetriveCountOfDriver (ArrayList<Driver>,String)** : This method will  category of driver and an arraylist of driver as input and search for an category and returns the count of drivers.
- 
- • **RetriveDriver (ArrayList<Driver>,String)** : This method will  category of driver and an arraylist of driver as input and search for an category. and drivers who are belonging to that category should be return as a array list.
- 
- • **RetriveMaximumDistanceTravelledDriver (ArrayList<Driver>)** : This method will return the driver who traveled maximum distance
+  ![Screenshot 2025-06-21 154157](https://github.com/user-attachments/assets/9bf29442-5bb2-4ffb-bad1-9f7b47fc77e0)
