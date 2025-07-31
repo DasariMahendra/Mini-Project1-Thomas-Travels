@@ -50,6 +50,9 @@ Contains static utility methods to manage and search drivers:
 - `Driver retriveMaximumDistanceTravelledDriver(ArrayList<Driver> list)`  
   Returns the driver who has traveled the **maximum distance**.
 
+  ---
+  
+
 👇 Driver Class Design
 
  ![Screenshot 2025-06-21 153713](https://github.com/user-attachments/assets/ca1f4623-187b-4397-8b4d-89e66b6577ae)
